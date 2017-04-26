@@ -55,29 +55,31 @@
 			</plugin>
 			
 			
-			<plugin>
-			    <groupId>org.mule.tools.maven</groupId>
-			    <artifactId>mule-maven-plugin</artifactId>
-			    <version>2.0</version>
-			    <configuration>
-			        <deploymentType>cloudhub</deploymentType>
-			        <muleVersion>3.8.3</muleVersion> 
-			        <username>yourUsername</username>
-			        <password>yourPassword</password>
-				 <workerType>Micro</workerType>
-			        <redeploy>true</redeploy>
-			        <environment>Production</environment>
-			    </configuration>
-			    <executions>
-			        <execution>
-			            <id>deploy</id>
-			            <phase>deploy</phase>
-			            <goals>
-			                <goal>deploy</goal>
-			            </goals>
-			        </execution>
-			    </executions>
-			</plugin>
+	<plugin>
+	    <groupId>org.mule.tools.maven</groupId>
+	    <artifactId>mule-maven-plugin</artifactId>
+	    <version>2.0</version>
+	    <configuration>
+	        <deploymentType>cloudhub</deploymentType>
+	        <muleVersion>3.7.2</muleVersion> 
+	        <username>tusharkoley</username>
+	        <password>Zaq12wsx$</password>
+		 <workerType>Micro</workerType>
+		 <BusinessGroup>LnD</BusinessGroup>
+	        <redeploy>true</redeploy>
+	        <environment>Production</environment>
+	    </configuration>
+	    <executions>
+	        <execution>
+	            <id>deploy</id>
+	            <phase>deploy</phase>
+	            <goals>
+	                <goal>deploy</goal>
+	            </goals>
+	        </execution>
+	    </executions>
+	</plugin>
+
 
 		</plugins>
 	</build>
